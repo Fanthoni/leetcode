@@ -10,6 +10,7 @@ class ListNode:
 
 
 class Solution:
+    # Success
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
         answer = ListNode(0)
         answerHead = answer

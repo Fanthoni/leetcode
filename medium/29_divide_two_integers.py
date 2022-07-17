@@ -2,7 +2,7 @@ import math
 
 
 class Solution:
-    # incomplete
+    # Incomplete
     def divide(self, dividend: int, divisor: int) -> int:
         isResultNegative = ((dividend < 0 or divisor < 0)
                             and (dividend > 0 or divisor > 0))

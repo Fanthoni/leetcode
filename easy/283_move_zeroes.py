@@ -2,6 +2,7 @@ from typing import List
 
 
 class Solution:
+    # Success
     def moveZeroes(self, nums: List[int]) -> None:
         zeroCounter = 0
         for i in range(len(nums)):
